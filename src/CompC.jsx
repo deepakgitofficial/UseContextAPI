@@ -11,6 +11,21 @@ const CompC = () => {
         <p> {myData.name}</p>
         <p>{myData.city}</p>
         <hr></hr>
+
+      <div className="container">
+          <div style={{display: 'flex', justifyContent:'center'}}>
+              <div className="card">
+                  {myData.card}
+              </div>
+              <div className="card">
+                  {myData.card}
+              </div>
+              <div className="card">
+                  {myData.card}
+              </div>
+          </div>
+      </div>
+
     </div>
   )
 } 
